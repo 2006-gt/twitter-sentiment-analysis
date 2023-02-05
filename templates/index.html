@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sentiment analysis</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Indexstyle.css') }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<!-- <body background="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xOTAwNDYxOS9vcmlnaW4uZ2lmIiwiZXhwaXJlc19hdCI6MTY4Mzk5NzY5NX0.ZaBXoDKTqfoK0NeALCN-q76Oc51AD9MwFbDR38zeoEI/img.gif?width=980"> -->
+	<body>
+	<header class="title">
+      <div id="title-text" >
+        <h1 class="big-text" style="color: rgb(242, 247, 255); ">Sentiment Analysis on Tweets and Sentences</h1>
+      </div>
+    </header>
+	<div id="exp">
+	<div class="mainsection">
+		<div class="sub1">
+			<div class="container">
+      		<div class="row">
+				<div class="col-sm-12">
+		          <div class="card">
+		            <div class="card-body">
+		              <h2 class="card-title" > Sentiment analysis of Tweets</h2>
+		              <form action="/predict" method="post">
+						<div class="form-group">
+							<input type="text" class="form-control" name="query" placeholder="Enter query string" autocomplete="off">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" name="num" placeholder="Enter count" autocomplete="off">
+						</div>
+						<button name="submit" type="submit" class="btn btn-primary" data-submit="...Sending">Predict!</button>
+		              </form>
+		            </div>
+		          </div>
+		        </div>
+			</div>
+			</div>
+			<div class="container">
+				<div class="row">
+				  <div class="col-sm-12">
+					<div class="card">
+					  <div class="card-body">
+						<h2 class="card-title">Sentiment Analysis of Sentences</h2>
+						<form action="/predict1" method="post">
+						  <div class="form-group">
+							<input type="text" class="form-control" name="txt" placeholder="Example sentence" autocomplete="off">
+						  </div>
+						  <button name="submit" type="submit" class="btn btn-primary" data-submit="...Sending">Predict!</button>
+						</form>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			  </div>
+
+		</div>
+	</div>
+</div>
+	<!-- <div class="sub2">
+		<img class="twitterimg" width="100%" height="40%" src="https://i.ibb.co/sbFCPw4/Emotion-Transparent.png" >
+	</div> -->
+</body>
+</html>

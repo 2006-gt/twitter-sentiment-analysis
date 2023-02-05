@@ -1,0 +1,105 @@
+
+* {
+    font-family: "Blippo", fantasy;
+    box-sizing: border-box;
+}
+
+body {
+    height: 83vh;
+    margin: 0;
+    padding: 0 5%;
+    /* background-image: url("https://wallpapers.com/images/hd/3d-twitter-logo-dihhx0xg3sf7ah4r.jpg"); */
+    /* background: linear-gradient(to right, #d4d4d4, #d4d4d4, #d4d4d4); */
+    /* background-repeat: no-repeat;
+    background-size:cover; */
+
+        /* background-image:url('https://i.giphy.com/media/10zI52A8mrfwNG/giphy.webp'); */
+        background-image:url('https://i.pinimg.com/originals/81/16/88/811688d44a9906c2b1db6cde2304168b.gif');
+        background-size:cover;
+        background-position: right;
+        background-repeat: repeat-y;
+        background-attachment:fixed;
+}
+#exp{
+    margin-left:20%;
+}
+#title-id{
+    text-align: center;
+}
+.card{
+
+    background-color: #366ca296 !important;
+    width: 70%;
+}
+.card-title{
+    color: #ffffff;
+    align-content:stretch;
+}
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: #3381fe !important;
+    border-color: #f4f3f6 !important;
+}
+.btn-danger{
+    width: 100px;
+    height:40px;
+}
+.form-control{
+    background-color: #8a8b8ddb;
+}
+
+.container{
+    margin: 5% 0%;
+}
+.mainsection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sub1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.sub2{
+
+    margin-bottom: 1px;
+    margin-left : 0px;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content:safe; */
+}
+
+.twitterimg{
+    /* margin-top: 25%; */
+    margin-left: 62%;
+    margin-bottom: 60%;
+
+}
+.title {
+    margin: 2% 0 2% 1%;
+    width: 100%;
+    height: 10%;
+}
+.title-text {
+    width: 60%;
+}
+
+.big-text {
+    font-size: 60px;
+    color: #000000;
+    margin-bottom: 2%;
+}
